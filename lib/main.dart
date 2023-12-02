@@ -39,7 +39,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
 
-  int activeView = 4;
+  int activeView = 0;
   bool backButtonActive = false;
   bool emergencyPhoneNumbersActive = false;
 

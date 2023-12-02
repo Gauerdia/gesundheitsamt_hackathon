@@ -21,7 +21,7 @@ class _OneMinuteWonderViewState extends State<OneMinuteWonderView> {
   late double screenHeight, screenWidth;
   late Color lightBlue, darkBlue;
 
-  int viewChoice = 2;
+  int viewChoice = 0;
 
   void toggleViewChoice(int index){
     setState(() {
@@ -99,7 +99,6 @@ class _OneMinuteWonderViewState extends State<OneMinuteWonderView> {
                           )
                         ],
                       )
-
                     )
                   ],
                 ),
@@ -449,11 +448,20 @@ class _OneMinuteWonderViewState extends State<OneMinuteWonderView> {
       color: widget.lightBlue,
       width: screenWidth,
       child: viewChoice == 0 ?
-      firstExampleScreen()
+      GestureDetector(
+        child: firstExampleScreen(),
+        onTap: () => toggleViewChoice(1),
+      )
       : viewChoice == 1 ?
-      secondExampleScreen() :
+      GestureDetector(
+        child: secondExampleScreen(),
+        onTap: () => toggleViewChoice(2),
+      ) :
       viewChoice == 2 ?
-      thirdExampleScreen()
+      GestureDetector(
+        child: thirdExampleScreen(),
+        onTap: () => toggleViewChoice(3),
+      )
       : Container(),
     );
   }

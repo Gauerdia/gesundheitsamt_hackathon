@@ -162,9 +162,12 @@ class MainMenuView extends StatelessWidget {
                   height: screenHeight*0.02,
                 ),
                 Container(
-                  child: buildOneMinuteWonder(
-                      screenHeight, screenWidth,
-                      lightBlue, darkBlue),
+                  child: GestureDetector(
+                    child: buildOneMinuteWonder(
+                        screenHeight, screenWidth,
+                        lightBlue, darkBlue),
+                    onTap: () => toggleActiveView(4),
+                  )
                 ),
                 SizedBox(
                   height: screenHeight*0.02,
@@ -176,11 +179,13 @@ class MainMenuView extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      buildBasicTile(
+
+                        buildBasicTile(
                           screenHeight, screenWidth, lightBlue,
                           darkBlue, "assets/images/mic.png", "Sprachassistent",
                           0.45
-                      ),
+                        ),
+
                       GestureDetector(
                         child: buildBasicTile(
                             screenHeight, screenWidth, lightBlue,
@@ -204,11 +209,17 @@ class MainMenuView extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
-                      buildBasicTile(
+
+                      GestureDetector(
+                        child: buildBasicTile(
                           screenHeight, screenWidth, lightBlue,
                           darkBlue, "assets/images/plus.png", "Meine Gesundheit",
                           0.55
                       ),
+                      onTap: () => toggleActiveView(3),
+                      ),
+
+
                       GestureDetector(
                         child: buildBasicTile(
                             screenHeight, screenWidth, lightBlue,

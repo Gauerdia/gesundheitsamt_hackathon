@@ -22,7 +22,8 @@ AppBar buildAppBar(
       ),
       child: backButtonActive? GestureDetector(
         child: Image.asset(
-          "assets/images/back_arrow.png",
+          activeView != 4 ? "assets/images/back_arrow_white.png"
+          : "assets/images/back_arrow_blue.png",
           scale: 5,
         ),
         onTap: () => toggleActiveView(0),

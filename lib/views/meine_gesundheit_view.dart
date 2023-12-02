@@ -23,8 +23,8 @@ class _MeineGesundheitViewState extends State<MeineGesundheitView> {
   late double screenWidth;
   late Color lightBlue, darkBlue;
 
-  bool physicistSelection = true;
-  bool physicistActive = true;
+  bool physicistSelection = false;
+  bool physicistActive = false;
 
   void togglePhysicistSelection(){
     setState(() {
