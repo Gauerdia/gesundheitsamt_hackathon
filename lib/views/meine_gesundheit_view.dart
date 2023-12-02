@@ -101,7 +101,7 @@ class _MeineGesundheitViewState extends State<MeineGesundheitView> {
         ),
       child: Container(
         width: screenWidth*0.9,
-        height: screenHeight*0.3,
+        height: screenHeight*0.32,
         // color: Colors.red,
         decoration: BoxDecoration(
           color: Colors.white,
@@ -180,7 +180,7 @@ class _MeineGesundheitViewState extends State<MeineGesundheitView> {
             ),
             Container(
               width: screenWidth*0.9,
-              height: screenHeight*0.09,
+              height: screenHeight*0.1,
               child: Column(
                 children: [
                   Row(

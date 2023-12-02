@@ -354,7 +354,7 @@ class MainMenuView extends StatelessWidget {
                 children: [
                   Container(
                     width: screenWidth,
-                    height: screenHeight*0.04,
+                    height: screenHeight*0.05,
                     // color: Colors.green,
                     child: Center(
                       child: Text(

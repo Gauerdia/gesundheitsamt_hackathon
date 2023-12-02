@@ -172,7 +172,7 @@ class _VorsorgeCheckheftViewState extends State<VorsorgeCheckheftView> {
           // Blue container
           Container(
             width: screenWidth*0.95,
-            height: screenHeight*0.1,
+            height: screenHeight*0.105,
             decoration: BoxDecoration(
               color: lightBlue,
               borderRadius: BorderRadius.all(
@@ -195,11 +195,11 @@ class _VorsorgeCheckheftViewState extends State<VorsorgeCheckheftView> {
                   child: CircleAvatar(
 
                     backgroundColor: darkBlue,
-                    radius: 40,
+                    radius: 38,
 
                     child: CircleAvatar(
                       backgroundColor: Colors.white,
-                      radius: 33,
+                      radius: 34,
                       child: Image.asset(
                         imagePath,
                         scale: scaleFactor,
@@ -323,7 +323,7 @@ class _VorsorgeCheckheftViewState extends State<VorsorgeCheckheftView> {
           // White Container
           Container(
             width: screenWidth*0.95,
-            height: screenHeight*0.14,
+            height: screenHeight*0.145,
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.all(
@@ -337,7 +337,7 @@ class _VorsorgeCheckheftViewState extends State<VorsorgeCheckheftView> {
               children: [
                 Container(
                   color: dateIsFine? Colors.greenAccent : Colors.redAccent,
-                  height: screenHeight*0.10,
+                  height: screenHeight*0.105,
                 ),
                 Container(
                   child: Row(
@@ -386,7 +386,7 @@ class _VorsorgeCheckheftViewState extends State<VorsorgeCheckheftView> {
           // Blue container
           Container(
             width: screenWidth*0.95,
-            height: screenHeight*0.1,
+            height: screenHeight*0.11,
             decoration: BoxDecoration(
               color: lightBlue,
               borderRadius: BorderRadius.all(
@@ -413,7 +413,7 @@ class _VorsorgeCheckheftViewState extends State<VorsorgeCheckheftView> {
 
                     child: CircleAvatar(
                         backgroundColor: Colors.white,
-                        radius: 33,
+                        radius: 35,
                         child: Text(
                           short,
                           style: TextStyle(

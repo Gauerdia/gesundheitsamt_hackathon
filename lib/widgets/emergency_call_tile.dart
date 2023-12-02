@@ -8,7 +8,7 @@ Widget emergencyCallTile(
     ) {
   return Container(
     width: screenWidth*0.2,
-    height: screenHeight*0.12,
+    height: screenHeight*0.125,
     decoration: BoxDecoration(
       color: Colors.white,
       border: Border.all(
