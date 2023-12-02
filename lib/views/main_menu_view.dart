@@ -251,7 +251,7 @@ class MainMenuView extends StatelessWidget {
           GestureDetector(
             child: Container(
               child: Image.asset(
-                "assets/images/dog_cut1.png",
+                "assets/images/dog_cut_wobg.png",
                 scale: 2,
               ),
               padding: EdgeInsets.only(bottom: 54),
