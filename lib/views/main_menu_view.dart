@@ -8,7 +8,7 @@ import '../widgets/emergency_call_tile.dart';
 Widget buildCarousel(double screenHeight, double screenWidth){
 
   final List<String> imgList = [
-    "assets/images/img.png",
+    "assets/images/screenshot1.png",
     "assets/images/img_1.png",
     "assets/images/img_2.png",
     "assets/images/img_3.png",
