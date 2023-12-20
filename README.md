@@ -24,8 +24,8 @@ iOS. The internet access works via google apis and the storage on the device wor
 
 The main screen           |  An example of the prevention games
 :-------------------------:|:-------------------------:
-<img src="https://github.com/Gauerdia/gesundheitsamt_test_1/blob/master/assets/screenshots/screenshot1.png?raw=true" width="300" height="680">  |  <img src="https://github.com/Gauerdia/gesundheitsamt_test_1/blob/master/assets/screenshots/screenshot2.png?raw=true" width="300" height="680">
+<img src="https://github.com/Gauerdia/gesundheitsamt_hackathon/blob/master/assets/screenshots/screenshot1.png?raw=true" width="300" height="680">  |  <img src="https://github.com/Gauerdia/gesundheitsamt_hackathon/blob/master/assets/screenshots/screenshot2.png?raw=true" width="300" height="680">
 
 Recommendations based on age   |  General information about your own health
 :-------------------------:|:-------------------------:
-<img src="https://github.com/Gauerdia/gesundheitsamt_test_1/blob/master/assets/screenshots/screenshot3.png?raw=true" width="300" height="680">  |  <img src="https://github.com/Gauerdia/gesundheitsamt_test_1/blob/master/assets/screenshots/screenshot4.png?raw=true" width="300" height="680">
+<img src="https://github.com/Gauerdia/gesundheitsamt_hackathon/blob/master/assets/screenshots/screenshot3.png?raw=true" width="300" height="680">  |  <img src="https://github.com/Gauerdia/gesundheitsamt_hackathon/blob/master/assets/screenshots/screenshot4.png?raw=true" width="300" height="680">
